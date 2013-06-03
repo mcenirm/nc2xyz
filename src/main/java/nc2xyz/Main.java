@@ -10,7 +10,7 @@ public class Main
 {
     public static void main( String[] args ) throws IOException
     {
-        if (args.length != 1) {
+        if (args.length != 2) {
             System.err.println(String.format("Usage: %s NC_FILE VAR_NAME", Main.class.getName()));
             System.exit(1);
         }
